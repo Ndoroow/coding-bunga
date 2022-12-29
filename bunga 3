@@ -2,9 +2,9 @@ import turtle
 t = turtle.Turtle()
 for i in range (180):
     t.speed(0)
-    t.color('#BFEAF5')
+    t.color('#FF9E9E')
     t.circle(190 - i, 90)
     t.left(90)
-    t.color('#EAFDFC')
+    t.color('#FFCAC8')
     t.circle(190 - i, 90)
     t.left(18)
